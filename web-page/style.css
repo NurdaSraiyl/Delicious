@@ -1,3 +1,16 @@
+@@keyframes in {
+  from{
+    border: 2px solid white;
+  }
+  to{
+    border: 2px solid black;
+  }
+}
+
+@@keyframes out                                                                                                                                                                                             {
+
+}
+
 body{
   margin: 0px;
   background-color: #FACA7E;
@@ -19,6 +32,19 @@ header{
   border-right: 2px solid #945F0B;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
+}
+header img{
+  float: left;
+}
+
+header a{
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top: 18px;
+  animation-name: in;
+  animation-duration: 5s;
 }
 
 section{
