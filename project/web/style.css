@@ -1,0 +1,17 @@
+body{
+    background-color: silver;
+}
+
+footer{
+    height: 200px;
+}
+
+.container{
+    width: 1000px;
+}
+
+.main-place{
+    padding: 20px;
+    border-radius: 4px;
+    background-color: white;
+}
